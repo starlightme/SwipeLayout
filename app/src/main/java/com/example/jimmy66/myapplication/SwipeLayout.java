@@ -1,4 +1,9 @@
-package com.github.lzyzsd.swipelayoutexample;
+package com.example.jimmy66.myapplication;
+
+
+/**
+ * Created by Bruce on 11/24/14.
+ */
 
 import android.content.Context;
 import android.support.v4.view.ViewCompat;
@@ -8,9 +13,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-/**
- * Created by Bruce on 11/24/14.
- */
+
+
+
 public class SwipeLayout extends LinearLayout {
 
     private ViewDragHelper viewDragHelper;
@@ -129,4 +134,5 @@ public class SwipeLayout extends LinearLayout {
             ViewCompat.postInvalidateOnAnimation(this);
         }
     }
+
 }
